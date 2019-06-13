@@ -1,23 +1,30 @@
 {
-    "name": "taskuniverse/contact-form",
-    "description": "simple contact template",
-    "keywords": ["contact", "form"],
-    "homepage": "git",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nick Fontecha",
-            "email": "nick.rubiano@tars.dev",
-            "role": "developer"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-      "laracasts/flash": "^3.0"
-    },
-    "autoload": {
-      "psr-0": {
-        "Taskuniverse\\ContactForm\\": "packages/taskuniverse/contactform/src"
-      }
+  "name": "taskuniverse/contact-form",
+  "description": "Simple contact template via smtp",
+  "keywords": ["contact", "form"],
+  "homepage": "https://github.com/NickSealer/contact-form.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Fontecha",
+      "email": "nick.rubiano@tars.dev"
     }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "laracasts/flash": "^3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Taskuniverse\\ContactForm\\": "packages/taskuniverse/contactform/src "
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Taskuniverse\\ContactForm\\ContactFormServiceProvider"
+      ]
+    }
+  }
 }
