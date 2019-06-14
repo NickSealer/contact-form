@@ -46,3 +46,7 @@ Navigate to \<host\>/contact
 
 - php 7.2
 - laravel 5.8
+
+## Preview
+
+![contact-form-preview](https://user-images.githubusercontent.com/27818621/59525871-1384f100-8e9d-11e9-8e3e-0f69d8bb96db.png)
