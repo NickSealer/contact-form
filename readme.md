@@ -26,7 +26,7 @@ Enable in your email account the access to third party apps.
 MAIL_DRIVER=smtp
 MAIL_PORT=587
 MAIL_USERNAME=your mail
-MAIL_PASSWORD=your passwor email
+MAIL_PASSWORD=your password email
 MAIL_ENCRYPTION=tls
 ```
 
