@@ -17,14 +17,14 @@
   "autoload": {
     "psr-0": {
       "Taskuniverse\\ContactForm": "src/"
-    },
-    "minimum-stability": "dev",
-    "extra": {
-      "laravel": {
-        "providers": [
-          "Taskuniverse\\ContactForm\\ContactFormServiceProvider"
-        ]
-      }
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Taskuniverse\\ContactForm\\ContactFormServiceProvider"
+      ]
     }
   }
 }
