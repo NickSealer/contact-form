@@ -1,7 +1,7 @@
 {
   "name": "taskuniverse/contact-form",
   "description": "Simple contact template via smtp for laravel",
-  "keywords": ["contact", "form"],
+  "keywords": ["contact", "form", "laravel"],
   "homepage": "https://github.com/NickSealer/contact-form.git",
   "license": "MIT",
   "authors": [
@@ -19,7 +19,7 @@
       "Taskuniverse\\ContactForm": "src/"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "extra": {
     "laravel": {
       "providers": [

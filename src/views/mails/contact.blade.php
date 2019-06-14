@@ -1,7 +1,7 @@
 @extends('contactform::layouts.app')
 <div class="container">
-  <div class="card-header bg-primary text-white">
-    <h4><i class="far fa-envelope"></i> Contact Us!</h4>
+  <div class="card-header bg-primary text-white text-center">
+    <h4><i class=""></i> Contact Us!</h4>
   </div>
   @include('flash::message')
   @include('contactform::errors._errors')
