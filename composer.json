@@ -14,5 +14,16 @@
     "php": ">=7.2.0",
     "laracasts/flash": "^3.0"
   },
-  "minimum-stability": "dev"
-}
+  "autoload": {
+    "psr-0": {
+      "Taskuniverse\\ContactForm": "src/"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Taskuniverse\\ContactForm\\ContactFormServiceProvider"
+        ]
+      }
+    }
+  }
