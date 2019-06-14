@@ -10,8 +10,8 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 - composer dump-autoload
 - php artisan vendor-publish
 
-## Confign .env file
-- Enable your email account Access to third party apps
+## Config .env file
+- Enable in your email account the access to third party apps
 
 - MAIL_DRIVER=smtp
 - MAIL_HOST=smtp.gmail.com
