@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Taskuniverse\\ContactForm": "src/"
+      "Taskuniverse\\ContactForm\\": "src/"
     }
   },
   "minimum-stability": "stable",
