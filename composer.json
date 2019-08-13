@@ -1,0 +1,30 @@
+{
+  "name": "taskuniverse/contact-form",
+  "description": "Simple contact template via smtp for laravel",
+  "keywords": ["contact", "form", "laravel", "mail", "gmail", "outlook"],
+  "homepage": "https://github.com/NickSealer/contact-form.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Fontecha",
+      "email": "nickfontechav@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "laracasts/flash": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Taskuniverse\\ContactForm\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Taskuniverse\\ContactForm\\ContactFormServiceProvider"
+      ]
+    }
+  }
+}
